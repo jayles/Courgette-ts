@@ -66,5 +66,5 @@
 # Get linguist-library to identify TypeScript files correctly
 ###############################################################################
 *.ts linguist-language=TypeScript
+Puppeteer/* linguist-vendored
 puppeteer-web.js linguist-vendored=true
-puppeteer-web.js linguist-generated=true
