@@ -6,7 +6,7 @@ This TypeScript testing framework runs inside the browser and does not use Node.
 * Supports end-to-end testing (using Puppeteer)
 * Supports running tests from within Visual Studio using headless Chrome (requires Courgette Test Adapter)
 * Supports debugging tests from Visual Studio by launching visible instance of Chrome (requires Courgette Test Adapter)
-* For failing tests, clicking on stack trace error (from transpiled JavaScript file) in Visual Studio will open original TypeScript source file on exact line number of the failing assertion (requires "sourceMap": true in tsconfig.json)
+* For failing tests, clicking on stack trace error (from transpiled JavaScript file) in Visual Studio will open original TypeScript source file on exact line number of the failing assertion (requires Test Adapter + "sourceMap": true in tsconfig.json)
 
 The framework has three styles of tests:
 * Spec tests (.spec.ts extension Jasmine/Jest style tests), using describe() and it() functions
