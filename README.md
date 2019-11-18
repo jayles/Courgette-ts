@@ -13,3 +13,5 @@ If the Courgette Test Adapter .vsix is installed in Visual Studio then tests can
 * Gherkin test/running parsing is not yet complete
 * Spec tests do not yet have complete set of Jasmine/Jest matchers/assertions
 * Courgette tests do not yet have complete set of matchers/assertions
+* Code coverage needs to be added
+* CSS coverage may be added (if not too problematic)
