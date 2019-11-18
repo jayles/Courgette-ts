@@ -9,9 +9,10 @@ The framework supports three styles of tests:
 If the Courgette Test Adapter .vsix is installed in Visual Studio then tests can be run in normal mode (using headless Chrome), or debug mode (visible Chrome instance which is started by Visual Studio and then left running on the desktop).
 
 ## Issues/Limitations/To Do List
-* Needs to be packaged for Nuget
-* Gherkin test/running parsing is not yet complete
-* Spec tests do not yet have complete set of Jasmine/Jest matchers/assertions
-* Courgette tests do not yet have complete set of matchers/assertions
-* Code coverage needs to be added
-* CSS coverage may be added (if not too problematic)
+- [ ] Needs to be packaged for Nuget
+- [ ] Code coverage needs to be added
+- [ ] More unit tests need to be added to improve code coverage (requires code coverage feature)
+- [ ] Courgette tests do not yet have complete set of matchers/assertions
+- [ ] Spec tests do not yet have complete set of Jasmine/Jest matchers/assertions
+- [ ] Gherkin test/running parsing is not yet complete
+- [ ] CSS coverage may be added (if not too problematic)
