@@ -13,8 +13,6 @@ The framework has three styles of tests:
 * Gherkin tests (.gherkin.ts extension English language style tests), using 'given' 'when' and 'then' syntax
 * Courgette tests (.courgette.ts extension NUnit/MSTest style tests), using property decorators to annotate class/methods
 
-The log file is written to: `c:\Users\<username>\AppData\Local\Temp\Courgette\courgette.log`
-
 ## Issues/Limitations/To Do List
 - [ ] Needs to be packaged for Nuget
 - [ ] Code coverage needs to be added
