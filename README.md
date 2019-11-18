@@ -11,7 +11,7 @@ This TypeScript testing framework runs inside the browser and does not use Node.
 The framework has three styles of tests:
 * Spec tests (.spec.ts extension Jasmine/Jest style tests), using describe() and it() functions
 * Gherkin tests (.gherkin.ts extension English language style tests), using 'given' 'when' and 'then' syntax
-* Courgette tests (.courgette.ts extension NUnit/MSTest style tests with), using property decorators to annotate class/methods
+* Courgette tests (.courgette.ts extension NUnit/MSTest style tests), using property decorators to annotate class/methods
 
 ## Issues/Limitations/To Do List
 - [ ] Needs to be packaged for Nuget
