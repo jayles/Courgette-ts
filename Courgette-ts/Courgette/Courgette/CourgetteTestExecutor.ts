@@ -1,8 +1,8 @@
-﻿import { log, check } from '../Logger.js';
+﻿import { log } from '../Logger.js';
 import { ITestExecutor } from '../VsTestRunner/VsTestRunner.js';
 import { VsTestResult } from '../VsTestRunner/VsTestResult.js';
 import TestSuite from './TestSuite.js';
-import TestItem from './TestItem.js';
+//import TestItem from './TestItem.js';
 
 // see the following for using puppeeter within the browser (without Node.js)
 //

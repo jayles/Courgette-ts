@@ -1,7 +1,7 @@
 ﻿import { IScenario } from '../Gherkin/GherkinMatchers.js';
 import { ITestExecutor } from '../VsTestRunner/VsTestRunner.js';
 import { VsTestResult } from '../VsTestRunner/VsTestResult.js';
-import { log, check } from '../Logger.js';
+import { log } from '../Logger.js';
 
 export default class GherkinTestExecutor implements ITestExecutor {
 	public testResults: Array<VsTestResult> = new Array<VsTestResult>();
@@ -18,7 +18,7 @@ export default class GherkinTestExecutor implements ITestExecutor {
 		let gherkinScenarios = await import(testFileUrl);
 
 		// attempt to enumerate classes in imported module. Not sure is this is possible
-		type ModuleType = typeof gherkinScenarios;
+		//type ModuleType = typeof gherkinScenarios;
 		let classNameList: PropertyKey[] = Reflect.ownKeys(gherkinScenarios);
 		for (let className of classNameList)
 			console.log(className.toString());

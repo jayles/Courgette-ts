@@ -1,6 +1,6 @@
 ﻿import { Suite, Test, BeforeAll, AfterAll, BeforeEach, AfterEach } from '../Courgette/CourgetteDecorators.js';
 import { assert } from '../Courgette/CourgetteMatchers.js';
-import { log } from '../Logger.js';
+//import { log } from '../Logger.js';
 
 // Matchers to add
 // ===============
@@ -53,11 +53,11 @@ class Person {
 		}
 }
 
-interface IPerson {
-	name: string;
-	age: number;
-	dob: Date;
-}
+//interface IPerson {
+//	name: string;
+//	age: number;
+//	dob: Date;
+//}
 
 @Suite('Courgette matchers/assert tests')
 export default class CourgetteMatchersTest {

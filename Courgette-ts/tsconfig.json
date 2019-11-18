@@ -11,9 +11,8 @@
 		//	strictNullChecks
 		//	strictFunctionTypes
 		//	strictPropertyInitialization
-		//"noUnusedLocals": true,
-		//"noUnusedParameters": true,
-		"noImplicitAny": false,
+		"noUnusedLocals": false,
+		"noUnusedParameters": false,
 		"noEmitOnError": true,
 		"noFallthroughCasesInSwitch": true,
 		"noImplicitReturns": true,

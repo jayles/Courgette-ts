@@ -159,9 +159,9 @@ export default class SpecMatcher {
 
 	// toContain
 	// to check whether a string or array contains a substring or an item
-	public toContain(str: string);
-	public toContain<T>(array: Array<T>);
-	public toContain<T>(expected: string | Array<T>) {
+	public toContain(str: string): void;
+	public toContain<T>(array: Array<T>): void;
+	public toContain<T>(expected: string | Array<T>): void {
 		let found: number = -1;
 		if (this.actual != null && expected != null) {
 			found = this.actual.indexOf(expected);

@@ -1,5 +1,5 @@
 ﻿import { describe, it, expect, beforeAll, afterAll, beforeEach, afterEach } from '../Spec/SpecTestDiscoverer.js';
-import { Puppet } from '../Puppeteer/Puppet.js';
+//import { Puppet } from '../Puppeteer/Puppet.js';
 
 describe('es6 push/pop test', () => {
 

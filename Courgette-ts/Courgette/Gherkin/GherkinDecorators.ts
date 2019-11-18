@@ -170,7 +170,7 @@ export function Attrib<T extends {}>(target: T, fieldName: string) {
 	if (!target.hasOwnProperty('_observedAttributes')) {
 		let propValues: string[] = [fieldName];
 		Object.defineProperty(target, '_observedAttributes', { value: propValues });
-		let actualValue: string[] = (target as any)['_observedAttributes'];
+		//let actualValue: string[] = (target as any)['_observedAttributes'];
 	}
 	else {
 		let obsAttrs: string[] = (target as any)._observedAttributes;

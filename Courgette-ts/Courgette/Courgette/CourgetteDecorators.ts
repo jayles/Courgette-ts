@@ -1,4 +1,4 @@
-﻿import { log, check } from '../Logger.js';
+﻿import { log } from '../Logger.js';
 import TestItem from './TestItem.js';
 import TestSuite from './TestSuite.js';
 

@@ -14,11 +14,11 @@ class Person {
 	public dob: Date;
 }
 
-interface IPerson {
-	name: string;
-	age: number;
-	dob: Date;
-}
+//interface IPerson {
+//	name: string;
+//	age: number;
+//	dob: Date;
+//}
 
 @Suite('Courgette style es6 push/pop test')
 export default class ProxyTest
@@ -48,7 +48,7 @@ export default class ProxyTest
 
 		//
 		let p1 = new Person();
-		let p2 = new Person();
+		//let p2 = new Person();
 		assert.isInstanceOf(Person, p1);
 
 		//assert.areEqual(p1, p2);

@@ -1,4 +1,4 @@
-﻿import { connect, Browser, Page, CoverageEntry } from 'puppeteer';
+﻿import { Browser, Page, CoverageEntry } from 'puppeteer';
 export { Browser, Page, CoverageEntry };
 import { log } from '../Logger.js';
 
@@ -30,7 +30,7 @@ export class Puppet {
 			});
 
 			let config = await response.json;
-			let wsUri: string = (config as any).webSocketDebuggerUrl;
+			wsUri = (config as any).webSocketDebuggerUrl;
 		}
 		catch (ex) {
 			log.warn(ex.toString());
