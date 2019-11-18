@@ -13,4 +13,3 @@ If the Courgette Test Adapter .vsix is installed in Visual Studio then tests can
 * Gherkin test/running parsing is not yet complete
 * Spec tests do not yet have complete set of Jasmine/Jest matchers/assertions
 * Courgette tests do not yet have complete set of matchers/assertions
-* Code currently runs all test scripts in an asynchronous fashion in separate instances of Chrome, but it would probably be faster to use a single Chrome instance as it takes some time to start and stop the Chrome process.
