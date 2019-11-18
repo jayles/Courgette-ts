@@ -20,5 +20,6 @@ The framework has three styles of tests:
 - [ ] Courgette tests do not yet have complete set of matchers/assertions
 - [ ] Spec tests do not yet have complete set of Jasmine/Jest matchers/assertions
 - [ ] Gherkin test/running parsing is not yet complete
+- [ ] Does not currently support outDir option in tsconfig.json, .js and .js.map files need to be in the same folder as the original .ts file
 - [ ] CSS coverage may be added (if not too problematic)
 - [ ] .js test files are ignored - currently only *.spec.ts, *.gherkin.ts and *.courgette.ts extensions are parsed.
