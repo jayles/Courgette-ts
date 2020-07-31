@@ -14,7 +14,7 @@ The framework has three styles of tests:
 * Courgette tests (.courgette.ts extension NUnit/MSTest style tests), using property decorators to annotate class/methods
 
 ## Issues/Limitations/To Do List
-- [ ] Needs to be packaged for Nuget
+- [ ] Needs to be packaged for npm
 - [ ] Code coverage needs to be added
 - [ ] More unit tests need to be added to improve code coverage (requires code coverage feature)
 - [ ] Courgette tests do not yet have complete set of matchers/assertions
